@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+    
+}
+ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 30px;
+}
+nav img{
+    width: 25px;
+    height: 25px;
+    margin-left: 100px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+nav ul a{
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 200px;
+}
+.nav-list button{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px 43px;
+    background: #1e1e21;
+}
+/* here i am working main section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-image{
+    width: 260px;
+    position: relative;
+    top: -230px;
+    left: 70px;
+}
+.main-section{
+    margin-left: 150px
+}
+.onEar{
+    width: 320px;
+    margin-left: 53px;
+    margin-bottom: 8px;
+}
+.main-section h1{
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.main-section h3{
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.main-section p{
+    font-size: 12px;
+    font-weight: 300;
+    width: 65%;
+    color: #bdc0c2;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.shopping-bag-section{
+    display: flex;
+    align-items: center;
+    background-color: #1e1e21;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 10px 25px;
+    gap: 20px;
+}
+.shopping-bag-section img{
+    width: 15px;
+    background: transparent;
+}
+.shopping-bag-section p{
+    margin-bottom: 0;
+    color: white;
+    background: transparent;
+}
+.shopping-bag-section span {
+    background-color: transparent;
+  }
+
+/* here i am working  soical media icons*/
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 0 50px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 100px;
+}
+.social-media img{
+    scale: 0.8;
+}
+
+.second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-section{
+    scale: 0.8;
+    margin-bottom: 20px;
+}
+.specs-list{
+    display: flex;
+}
+.specs-list-item img{
+    scale: 0.8;
+}
+.specs-list-item div{
+    margin-bottom: 20px;
+}
+.specs-list-item div img{
+    scale: 0.8;
+}
+.specs-list-item div p{
+    font-size: 12px;
+}
+.specs-list-item div p:last-child {
+    color: #bdc0c2;
+    font-size: 10px;
+    margin-top: 5px;
+    width: 70%;
+}
+.specs-list-item div:first-child,
+.specs-list-item div:last-child {
+    margin-left: 30px;
+}
+
+/* designing the case section */
+.third-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+}
+.case-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.case-item-img{
+    scale: 0.8;
+    margin-left: 10%;
+    /* width: 20%; */
+}
+.case-item div{
+    width: 50%;
+}
+.case-item div p:first-child {
+    color: #bdc0c2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.case-item div p:last-child img{
+   scale: 0.8;
+   background: transparent;
+}
+.case-item div p:last-child {
+    width: fit-content;
+    background: #1e1e21;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+/* working on buy section */
+.buy-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181a1b;
+    gap: 50px;
+    padding: 40px 0px;
+    border-radius: 12px;
+    margin: 90px 200px 0 200px;
+}
+.buy-product div,
+.buy-product p,
+.buy-product h3,
+.buy-product img{
+    background-color: transparent;
+}
+.buy-product div{
+    width: 25%;
+}
+.buy-product h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+.buy-product p{
+    color: #bdc0c2;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.buy-product div div{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background: #000000;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.buy-product div div img {
+    scale: 0.8;
+    margin-right: 10px;
+}
+  
+.buy-product div div p {
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 160px;
+    margin: 0 150px;
+}
+.product-logo{
+    display: flex;
+    flex-direction: column;
+    scale: 0.6;
+}
+.product-items{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.product-card{
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    background-color: #181a1b;
+    position: relative;
+}
+.product-img{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    z-index: 100;
+    left: 28px;
+}
+.product-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+  background-color: transparent;
+}
+.product-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.product-info p {
+    font-size: 12px;
+}
+.product-info p span {
+    color: #bdc0c2;
+}
+  
+.product-info div {
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+  
+.product-info div img {
+    width: 13px;
+    height: 13px;
+}
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 70px;
+    margin-left: 120px;
+}
+.footer-logo{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    scale: 0.9; 
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+ul li a{
+    text-decoration: none;
+    color: #BDC0C2;
+    font-size: 14px;
+    
+}
+ul li:first-child a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+ul li:first-child{
+    margin-bottom: 10px;
+    
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 90px;
+}
+.footer-subscription div:first-child{
+    display: flex;
+    padding: 5px 10px;
+    width: 350px;
+    height: 45px;
+    background: #181A1B;
+    border-radius: 8px;
+    
+}
+.footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent; 
+}
+.subscribe-button{
+    /* background: #0A0A0B; */
+    border-radius: 8px;
+    padding: 7px 17px;
+    border: none;
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    margin-left: 35px;
+}
+.subscribe-button p{
+    font-size: 11px;
+    font-weight: 300;
+}
+.footer-subscription div:last-child img{
+    margin-right: 20px;
+    scale: 0.8;
+}
+.arrow-up{
+    margin-right: 50px;
+    scale: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
